@@ -1,0 +1,481 @@
+{
+  "timestamp": "2026-03-25T17:23:24.555549",
+  "routing_accuracy": 100.0,
+  "macro_f1": 100.0,
+  "weighted_f1": 100.0,
+  "macro_precision": 100.0,
+  "macro_recall": 100.0,
+  "classification_metrics_per_agent": {
+    "inventory": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "pricing": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "duration": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "loan_risk": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "anomaly": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "email": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "routing_results": [
+    {
+      "query": "How many bags of rice are currently in the warehouse?",
+      "expected": "inventory",
+      "predicted": "inventory",
+      "correct": true,
+      "latency_ms": 5995.4
+    },
+    {
+      "query": "What is the total stock quantity available right now?",
+      "expected": "inventory",
+      "predicted": "inventory",
+      "correct": true,
+      "latency_ms": 3683.5
+    },
+    {
+      "query": "Show me the current inventory levels for all grain types.",
+      "expected": "inventory",
+      "predicted": "inventory",
+      "correct": true,
+      "latency_ms": 4558.6
+    },
+    {
+      "query": "Which grain has the highest quantity in storage?",
+      "expected": "inventory",
+      "predicted": "inventory",
+      "correct": true,
+      "latency_ms": 4411.3
+    },
+    {
+      "query": "Is there a shortage of wheat in the warehouse?",
+      "expected": "inventory",
+      "predicted": "inventory",
+      "correct": true,
+      "latency_ms": 6602.4
+    },
+    {
+      "query": "What is the warehouse occupancy percentage today?",
+      "expected": "inventory",
+      "predicted": "inventory",
+      "correct": true,
+      "latency_ms": 4660.2
+    },
+    {
+      "query": "Give me a complete inventory breakdown by commodity.",
+      "expected": "inventory",
+      "predicted": "inventory",
+      "correct": true,
+      "latency_ms": 5321.2
+    },
+    {
+      "query": "How much maize stock do we currently hold?",
+      "expected": "inventory",
+      "predicted": "inventory",
+      "correct": true,
+      "latency_ms": 4332.1
+    },
+    {
+      "query": "What is the current market price of wheat?",
+      "expected": "pricing",
+      "predicted": "pricing",
+      "correct": true,
+      "latency_ms": 6414.4
+    },
+    {
+      "query": "Predict rice prices for the next 3 months.",
+      "expected": "pricing",
+      "predicted": "pricing",
+      "correct": true,
+      "latency_ms": 4021.1
+    },
+    {
+      "query": "Should I sell my grain now or wait for better prices?",
+      "expected": "pricing",
+      "predicted": "pricing",
+      "correct": true,
+      "latency_ms": 3530.0
+    },
+    {
+      "query": "What is the price trend for soybean this season?",
+      "expected": "pricing",
+      "predicted": "pricing",
+      "correct": true,
+      "latency_ms": 3644.8
+    },
+    {
+      "query": "Give me market price forecast for all grains.",
+      "expected": "pricing",
+      "predicted": "pricing",
+      "correct": true,
+      "latency_ms": 7062.7
+    },
+    {
+      "query": "Are grain prices expected to rise or fall next quarter?",
+      "expected": "pricing",
+      "predicted": "pricing",
+      "correct": true,
+      "latency_ms": 8527.4
+    },
+    {
+      "query": "What is the best time to sell maize based on market analysis?",
+      "expected": "pricing",
+      "predicted": "pricing",
+      "correct": true,
+      "latency_ms": 9733.2
+    },
+    {
+      "query": "Compare current prices with historical averages.",
+      "expected": "pricing",
+      "predicted": "pricing",
+      "correct": true,
+      "latency_ms": 2876.0
+    },
+    {
+      "query": "How long has the grain been stored in the warehouse?",
+      "expected": "duration",
+      "predicted": "duration",
+      "correct": true,
+      "latency_ms": 4188.2
+    },
+    {
+      "query": "Which customers have grain stored for more than 6 months?",
+      "expected": "duration",
+      "predicted": "duration",
+      "correct": true,
+      "latency_ms": 6645.7
+    },
+    {
+      "query": "What is the average storage duration for rice?",
+      "expected": "duration",
+      "predicted": "duration",
+      "correct": true,
+      "latency_ms": 2019.8
+    },
+    {
+      "query": "Predict the optimal storage duration to maximise profit.",
+      "expected": "duration",
+      "predicted": "duration",
+      "correct": true,
+      "latency_ms": 6073.9
+    },
+    {
+      "query": "Which lots are approaching their maximum safe storage period?",
+      "expected": "duration",
+      "predicted": "duration",
+      "correct": true,
+      "latency_ms": 3607.2
+    },
+    {
+      "query": "Estimate the storage charges for the current inventory.",
+      "expected": "duration",
+      "predicted": "duration",
+      "correct": true,
+      "latency_ms": 3883.4
+    },
+    {
+      "query": "How many days has customer John's wheat been in storage?",
+      "expected": "duration",
+      "predicted": "duration",
+      "correct": true,
+      "latency_ms": 2600.4
+    },
+    {
+      "query": "What is the storage duration distribution across all lots?",
+      "expected": "duration",
+      "predicted": "duration",
+      "correct": true,
+      "latency_ms": 2969.4
+    },
+    {
+      "query": "What is the loan default risk for my current portfolio?",
+      "expected": "loan_risk",
+      "predicted": "loan_risk",
+      "correct": true,
+      "latency_ms": 4815.9
+    },
+    {
+      "query": "Which customers are at high risk of loan default?",
+      "expected": "loan_risk",
+      "predicted": "loan_risk",
+      "correct": true,
+      "latency_ms": 3836.1
+    },
+    {
+      "query": "Assess the credit risk for a new loan application.",
+      "expected": "loan_risk",
+      "predicted": "loan_risk",
+      "correct": true,
+      "latency_ms": 3219.9
+    },
+    {
+      "query": "What percentage of outstanding loans are high risk?",
+      "expected": "loan_risk",
+      "predicted": "loan_risk",
+      "correct": true,
+      "latency_ms": 2322.8
+    },
+    {
+      "query": "Give me a loan risk portfolio summary.",
+      "expected": "loan_risk",
+      "predicted": "loan_risk",
+      "correct": true,
+      "latency_ms": 2840.9
+    },
+    {
+      "query": "Which loans should I flag for immediate review?",
+      "expected": "loan_risk",
+      "predicted": "loan_risk",
+      "correct": true,
+      "latency_ms": 5642.7
+    },
+    {
+      "query": "What is the total exposure on risky loans?",
+      "expected": "loan_risk",
+      "predicted": "loan_risk",
+      "correct": true,
+      "latency_ms": 4480.1
+    },
+    {
+      "query": "Recommend loan limits based on grain collateral value.",
+      "expected": "loan_risk",
+      "predicted": "loan_risk",
+      "correct": true,
+      "latency_ms": 2882.6
+    },
+    {
+      "query": "Are there any suspicious transactions in the weighbridge data?",
+      "expected": "anomaly",
+      "predicted": "anomaly",
+      "correct": true,
+      "latency_ms": 3969.0
+    },
+    {
+      "query": "Detect any fraud or anomalies in recent operations.",
+      "expected": "anomaly",
+      "predicted": "anomaly",
+      "correct": true,
+      "latency_ms": 1881.5
+    },
+    {
+      "query": "Flag transactions that look unusual or out of pattern.",
+      "expected": "anomaly",
+      "predicted": "anomaly",
+      "correct": true,
+      "latency_ms": 4060.2
+    },
+    {
+      "query": "Have there been any weight discrepancies in the last week?",
+      "expected": "anomaly",
+      "predicted": "anomaly",
+      "correct": true,
+      "latency_ms": 3210.5
+    },
+    {
+      "query": "Check for irregularities in vehicle weighing records.",
+      "expected": "anomaly",
+      "predicted": "anomaly",
+      "correct": true,
+      "latency_ms": 4027.3
+    },
+    {
+      "query": "Are there any outliers in the payment data?",
+      "expected": "anomaly",
+      "predicted": "anomaly",
+      "correct": true,
+      "latency_ms": 2986.8
+    },
+    {
+      "query": "Identify abnormal patterns in grain movements.",
+      "expected": "anomaly",
+      "predicted": "anomaly",
+      "correct": true,
+      "latency_ms": 3700.0
+    },
+    {
+      "query": "Has there been any data tampering or unusual activity?",
+      "expected": "anomaly",
+      "predicted": "anomaly",
+      "correct": true,
+      "latency_ms": 3673.3
+    },
+    {
+      "query": "Send a loan reminder email to overdue customers.",
+      "expected": "email",
+      "predicted": "email",
+      "correct": true,
+      "latency_ms": 4534.9
+    },
+    {
+      "query": "Draft a payment alert for customers with pending dues.",
+      "expected": "email",
+      "predicted": "email",
+      "correct": true,
+      "latency_ms": 2665.2
+    },
+    {
+      "query": "Write a storage expiry notice for grain stored over 6 months.",
+      "expected": "email",
+      "predicted": "email",
+      "correct": true,
+      "latency_ms": 3984.6
+    },
+    {
+      "query": "Generate a bulk outreach email for all active customers.",
+      "expected": "email",
+      "predicted": "email",
+      "correct": true,
+      "latency_ms": 2548.4
+    },
+    {
+      "query": "Email a loan approval notification to the customer.",
+      "expected": "email",
+      "predicted": "email",
+      "correct": true,
+      "latency_ms": 2004.2
+    },
+    {
+      "query": "Compose a professional email reminding customers about repayment.",
+      "expected": "email",
+      "predicted": "email",
+      "correct": true,
+      "latency_ms": 4462.7
+    },
+    {
+      "query": "Send a warehouse storage charge invoice via email.",
+      "expected": "email",
+      "predicted": "email",
+      "correct": true,
+      "latency_ms": 6589.8
+    },
+    {
+      "query": "Notify customers whose grain is approaching the storage deadline.",
+      "expected": "email",
+      "predicted": "email",
+      "correct": true,
+      "latency_ms": 1003.4
+    }
+  ],
+  "agent_results": {
+    "inventory": {
+      "success_rate": 100.0,
+      "mean_latency_ms": 4572.0,
+      "std_latency_ms": 476.0,
+      "min_latency_ms": 4096.0,
+      "max_latency_ms": 5048.0,
+      "response_precision": 4.1,
+      "response_recall": 37.5,
+      "response_f1": 7.4
+    },
+    "pricing": {
+      "success_rate": 100.0,
+      "mean_latency_ms": 24843.0,
+      "std_latency_ms": 166.0,
+      "min_latency_ms": 24677.0,
+      "max_latency_ms": 25009.0,
+      "response_precision": 3.2,
+      "response_recall": 75.0,
+      "response_f1": 6.2
+    },
+    "duration": {
+      "success_rate": 100.0,
+      "mean_latency_ms": 10968.0,
+      "std_latency_ms": 1408.0,
+      "min_latency_ms": 9560.0,
+      "max_latency_ms": 12376.0,
+      "response_precision": 2.5,
+      "response_recall": 37.5,
+      "response_f1": 4.6
+    },
+    "loan_risk": {
+      "success_rate": 100.0,
+      "mean_latency_ms": 6889.0,
+      "std_latency_ms": 814.0,
+      "min_latency_ms": 6075.0,
+      "max_latency_ms": 7703.0,
+      "response_precision": 3.5,
+      "response_recall": 42.9,
+      "response_f1": 6.5
+    },
+    "anomaly": {
+      "success_rate": 100.0,
+      "mean_latency_ms": 19147.0,
+      "std_latency_ms": 1033.0,
+      "min_latency_ms": 18114.0,
+      "max_latency_ms": 20180.0,
+      "response_precision": 1.7,
+      "response_recall": 50.0,
+      "response_f1": 3.3
+    },
+    "email": {
+      "success_rate": 100.0,
+      "mean_latency_ms": 7629.0,
+      "std_latency_ms": 437.0,
+      "min_latency_ms": 7192.0,
+      "max_latency_ms": 8067.0,
+      "response_precision": 5.0,
+      "response_recall": 85.7,
+      "response_f1": 9.4
+    }
+  },
+  "overhead_data": [
+    {
+      "query_label": "inventory",
+      "direct_mean": 7239.0,
+      "master_mean": 16297.0,
+      "overhead_ms": 9058.0,
+      "overhead_pct": 55.6
+    },
+    {
+      "query_label": "pricing",
+      "direct_mean": 13395.0,
+      "master_mean": 40209.0,
+      "overhead_ms": 26815.0,
+      "overhead_pct": 66.7
+    },
+    {
+      "query_label": "anomaly",
+      "direct_mean": 18815.0,
+      "master_mean": 29416.0,
+      "overhead_ms": 10600.0,
+      "overhead_pct": 36.0
+    }
+  ]
+}
