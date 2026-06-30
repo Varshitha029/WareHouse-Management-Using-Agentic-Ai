@@ -1,0 +1,274 @@
+{
+  "warehouseId": "697b06515d0ced6c4b0b2e8f",
+  "name": "HARINI",
+  "description": "",
+  "configuration": {
+    "numberOfBuildings": 1,
+    "blocksPerBuilding": 2,
+    "rowsPerBlock": 3,
+    "colsPerBlock": 4
+  },
+  "totalSlots": 24,
+  "layout": [
+    {
+      "building": "Building 1",
+      "blocks": [
+        {
+          "block": "A",
+          "rows": 3,
+          "cols": 4,
+          "slots": [
+            {
+              "slotLabel": "A1",
+              "row": 1,
+              "col": 1,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A2",
+              "row": 1,
+              "col": 2,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A3",
+              "row": 1,
+              "col": 3,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A4",
+              "row": 1,
+              "col": 4,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A5",
+              "row": 2,
+              "col": 1,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A6",
+              "row": 2,
+              "col": 2,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A7",
+              "row": 2,
+              "col": 3,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A8",
+              "row": 2,
+              "col": 4,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A9",
+              "row": 3,
+              "col": 1,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A10",
+              "row": 3,
+              "col": 2,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A11",
+              "row": 3,
+              "col": 3,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A12",
+              "row": 3,
+              "col": 4,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            }
+          ]
+        },
+        {
+          "block": "B",
+          "rows": 3,
+          "cols": 4,
+          "slots": [
+            {
+              "slotLabel": "B1",
+              "row": 1,
+              "col": 1,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B2",
+              "row": 1,
+              "col": 2,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B3",
+              "row": 1,
+              "col": 3,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B4",
+              "row": 1,
+              "col": 4,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B5",
+              "row": 2,
+              "col": 1,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B6",
+              "row": 2,
+              "col": 2,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B7",
+              "row": 2,
+              "col": 3,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B8",
+              "row": 2,
+              "col": 4,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B9",
+              "row": 3,
+              "col": 1,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B10",
+              "row": 3,
+              "col": 2,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B11",
+              "row": 3,
+              "col": 3,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B12",
+              "row": 3,
+              "col": 4,
+              "capacity": 1500,
+              "filledBags": 0,
+              "status": "empty",
+              "allocations": [],
+              "isOccupied": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-01-29T07:03:45.259Z"
+}

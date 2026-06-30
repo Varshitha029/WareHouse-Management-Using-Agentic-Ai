@@ -1,0 +1,341 @@
+{
+  "warehouseId": "693fc28e2fd9dde1065758de",
+  "name": "sharvani warehouse1",
+  "description": "velugodu\n",
+  "configuration": {
+    "numberOfBuildings": 2,
+    "blocksPerBuilding": 2,
+    "rowsPerBlock": 3,
+    "colsPerBlock": 4
+  },
+  "totalSlots": 48,
+  "layout": [
+    {
+      "building": "Building 1",
+      "blocks": [
+        {
+          "block": "A",
+          "rows": 3,
+          "cols": 4,
+          "slots": [
+            {
+              "slotLabel": "A1",
+              "row": 1,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A2",
+              "row": 1,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A3",
+              "row": 1,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A4",
+              "row": 1,
+              "col": 4,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A5",
+              "row": 2,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A6",
+              "row": 2,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A7",
+              "row": 2,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A8",
+              "row": 2,
+              "col": 4,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A9",
+              "row": 3,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A10",
+              "row": 3,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A11",
+              "row": 3,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "A12",
+              "row": 3,
+              "col": 4,
+              "isOccupied": false
+            }
+          ]
+        },
+        {
+          "block": "B",
+          "rows": 3,
+          "cols": 4,
+          "slots": [
+            {
+              "slotLabel": "B1",
+              "row": 1,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B2",
+              "row": 1,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B3",
+              "row": 1,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B4",
+              "row": 1,
+              "col": 4,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B5",
+              "row": 2,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B6",
+              "row": 2,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B7",
+              "row": 2,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B8",
+              "row": 2,
+              "col": 4,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B9",
+              "row": 3,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B10",
+              "row": 3,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B11",
+              "row": 3,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "B12",
+              "row": 3,
+              "col": 4,
+              "isOccupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building": "Building 2",
+      "blocks": [
+        {
+          "block": "C",
+          "rows": 3,
+          "cols": 4,
+          "slots": [
+            {
+              "slotLabel": "C1",
+              "row": 1,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C2",
+              "row": 1,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C3",
+              "row": 1,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C4",
+              "row": 1,
+              "col": 4,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C5",
+              "row": 2,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C6",
+              "row": 2,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C7",
+              "row": 2,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C8",
+              "row": 2,
+              "col": 4,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C9",
+              "row": 3,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C10",
+              "row": 3,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C11",
+              "row": 3,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "C12",
+              "row": 3,
+              "col": 4,
+              "isOccupied": false
+            }
+          ]
+        },
+        {
+          "block": "D",
+          "rows": 3,
+          "cols": 4,
+          "slots": [
+            {
+              "slotLabel": "D1",
+              "row": 1,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D2",
+              "row": 1,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D3",
+              "row": 1,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D4",
+              "row": 1,
+              "col": 4,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D5",
+              "row": 2,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D6",
+              "row": 2,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D7",
+              "row": 2,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D8",
+              "row": 2,
+              "col": 4,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D9",
+              "row": 3,
+              "col": 1,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D10",
+              "row": 3,
+              "col": 2,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D11",
+              "row": 3,
+              "col": 3,
+              "isOccupied": false
+            },
+            {
+              "slotLabel": "D12",
+              "row": 3,
+              "col": 4,
+              "isOccupied": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2025-12-15T08:10:54.494Z"
+}

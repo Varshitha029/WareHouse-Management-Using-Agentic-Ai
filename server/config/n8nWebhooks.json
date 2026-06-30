@@ -1,0 +1,19 @@
+{
+  "n8nUrl": "http://localhost:5678",
+  "webhooks": {
+    "inventory_analyze": "http://localhost:5678/webhook/wms-inventory-analyze",
+    "market_predict_v2": "http://localhost:5678/webhook/wms-market-predict-v2",
+    "market_predict": "http://localhost:5678/webhook/wms-market-predict-v2",
+    "anomaly_detect": "http://localhost:5678/webhook/wms-anomaly-detect",
+    "predict_duration": "http://localhost:5678/webhook/wms-predict-duration",
+    "loan_risk_assess": "http://localhost:5678/webhook/wms-loan-risk-assess",
+    "weighbridge_analyze": "http://localhost:5678/webhook/wms-weighbridge-analyze",
+    "chat": "http://localhost:5678/webhook/wms-chat",
+    "demand_predict": "http://localhost:5678/webhook/wms-demand-predict",
+    "anomaly_alerts": "http://localhost:5678/webhook/wms-anomaly-alerts",
+    "full_analysis": "http://localhost:5678/webhook/wms-full-analysis",
+    "market_analysis": "http://localhost:5678/webhook/wms-market-analysis",
+    "storage_optimization": "http://localhost:5678/webhook/wms-storage-optimization",
+    "risk_assessment": "http://localhost:5678/webhook/wms-risk-assessment"
+  }
+}
